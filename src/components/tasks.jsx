@@ -1,6 +1,4 @@
-import { useRef, useState } from "react"
 import NewTask from "./newTask"
-import TaskList from "./taskList";
 
 export default function Tasks({onAddTask, tasks, onDelete}){  
 
